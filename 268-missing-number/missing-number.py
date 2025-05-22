@@ -9,11 +9,10 @@ class Solution(object):
         missing = 0
 
         if list_nums[0] == 1:
-            return missing
+            return 0
         
         if list_nums[lenghth-1] == lenghth-1:
-            missing = lenghth
-            return missing
+            return lenghth
 
         for i, val in enumerate(list_nums):
             if i != val:
