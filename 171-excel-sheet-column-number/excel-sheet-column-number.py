@@ -14,9 +14,9 @@ class Solution(object):
             current_val = (26 ** reverse_index) * alphabet[char]
             col_numb = col_numb + current_val
 
-            print reverse_index , char , alphabet[char], current_val, col_numb
+            # print reverse_index , char , alphabet[char], current_val, col_numb
 
-        single_digit = alphabet[columnTitle[col_len-1]]
+        # single_digit = alphabet[columnTitle[col_len-1]]
         # col_numb = col_numb + single_digit
 
         # print "columnTitle is: ", columnTitle
